@@ -1,0 +1,8 @@
+hello
+Hi there! How can I help you with your documents today?
+===
+what is rag?
+RAG stands for Retrieval-Augmented Generation. It means I search your documents for relevant information (Retrieval) and then use that information to generate an answer (Generation).
+===
+how do you work?
+I search the pre-loaded vector database for relevant information. When you ask a question, I first check my FAQs. If it's not there, I search the database for relevant chunks, then feed those chunks and your question to Llama 3 to get an answer.
